@@ -4,6 +4,7 @@ import { youwareVitePlugin } from "@youware/vite-plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/david-birthday-card/",
   plugins: [youwareVitePlugin(), react()],
   server: {
     host: "127.0.0.1",
